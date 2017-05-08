@@ -15,9 +15,9 @@
     .float-label-control input.empty + label,
     .float-label-control textarea.empty + label { top: 0.1em; font-size: 1.5em; animation: none; -webkit-animation: none; }
     .float-label-control input:not(.empty) + label,
-    .float-label-control textarea:not(.empty) + label { z-index: 1; }
+    .float-label-control textarea:not(.empty) + label { z-index: 1; color: green;}
     .float-label-control input:not(.empty):focus + label,
-    .float-label-control textarea:not(.empty):focus + label { color: #aaaaaa; }
+    .float-label-control textarea:not(.empty):focus + label { color: blue; }
     .float-label-control.label-bottom label { -moz-animation: float-labels-bottom 300ms none ease-out; -webkit-animation: float-labels-bottom 300ms none ease-out; -o-animation: float-labels-bottom 300ms none ease-out; -ms-animation: float-labels-bottom 300ms none ease-out; -khtml-animation: float-labels-bottom 300ms none ease-out; animation: float-labels-bottom 300ms none ease-out; }
     .float-label-control.label-bottom input:not(.empty) + label,
     .float-label-control.label-bottom textarea:not(.empty) + label { top: 3em; }
